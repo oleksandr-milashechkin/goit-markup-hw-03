@@ -46,12 +46,12 @@ section {
     background-color: var(--main-background-color);
     font-family: var(--main-font-name), var(--main-font-family);
     font-size: 14px;
+    line-height: 1.7;
     font-weight: 400;
     letter-spacing: 0.03em;
 }
 
 .link {
-    color: var(--title-text-color);
     text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ section {
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1,192;
+    line-height: 1,2;
     /* identical to box height */
 
     letter-spacing: 0.03em; 
@@ -89,7 +89,7 @@ section {
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1.192;
+    line-height: 1.2;
     /* identical to box height */
 
     letter-spacing: 0.03em;
@@ -105,7 +105,7 @@ section {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.142;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -119,7 +119,7 @@ section {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.142;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -143,7 +143,7 @@ section {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.142;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -154,7 +154,7 @@ section {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.142;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -183,7 +183,7 @@ section {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.363;
+    line-height: 1.4;
     /* or 136% */
     
     letter-spacing: 0.06em;
@@ -199,7 +199,7 @@ section {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.9;
     /* identical to box height, or 187% */
     
     display: inline-block;
@@ -211,6 +211,7 @@ section {
     box-shadow: var(--hero-button-shadow);
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
 .nav-button {
@@ -220,13 +221,14 @@ section {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.6;
 /* identical to box height, or 162% */
 
     text-align: center;
     letter-spacing: 0.03em;
     border: 0px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .nav-button:hover,
@@ -237,7 +239,7 @@ section {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.6;
 /* identical to box height, or 162% */
 
 text-align: center;
@@ -261,10 +263,9 @@ box-shadow: var(--button-shadow);
 .section-title {
     color: var(--title-text-color);
     font-family: var(--main-font-name);
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 1.166;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -274,20 +275,17 @@ box-shadow: var(--button-shadow);
 .section-subtitle {
     color: var(--title-text-color);
     font-family: var(--main-font-name);
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 1.172;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .section-text {
     font-family: var(--main-font-name);
-    font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 1.714;
+    line-height: 1.7;
     /* or 171% */
     
     letter-spacing: 0.03em;
@@ -303,10 +301,9 @@ box-shadow: var(--button-shadow);
 .name {
     color: var(--title-text-color);
     font-family: var(--main-font-name);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.187;
+    line-height: 1.2;
     /* identical to box height */
     
     letter-spacing: 0.03em;
@@ -317,7 +314,7 @@ box-shadow: var(--button-shadow);
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.187;
+    line-height: 1.2;
     /* identical to box height */
     
     letter-spacing: 0.03em;
@@ -333,7 +330,7 @@ box-shadow: var(--button-shadow);
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1.192;
+    line-height: 1.2;
     /* identical to box height */
 
     letter-spacing: 0.03em;
@@ -347,7 +344,7 @@ box-shadow: var(--button-shadow);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.714;
+    line-height: 1.7;
     /* or 171% */
     
     letter-spacing: 0.03em;
@@ -363,11 +360,9 @@ box-shadow: var(--button-shadow);
 }
 
 .progects {
-    font-family: var(--main-font-name);
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.9;
     /* identical to box height, or 187% */
     
     letter-spacing: 0.03em;
@@ -375,18 +370,28 @@ box-shadow: var(--button-shadow);
 
 .progects-title {
     color: var(--title-text-color);
-    font-family: var(--main-font-name);
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     /* identical to box height, or 200% */
     
     letter-spacing: 0.06em;
+
+    border: 1px solid #EEEEEE;
+    overflow: hidden;
 }
 
 .progect-info .progects-title {
     display: inline-block;
+    margin-bottom: 4px;
+}
+
+.progect-info .progects-subtitle {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.progect-info .progects-category {
     margin-bottom: 4px;
 }
 
@@ -451,11 +456,6 @@ box-shadow: var(--button-shadow);
     overflow: hidden;
   }
 
-  .progect-card {
-    border: 1px solid #EEEEEE;
-    overflow: hidden;
-  }
-
   .worker-info {
       padding: 30px;
 
@@ -488,4 +488,25 @@ box-shadow: var(--button-shadow);
 
   .progects-nav li:not(:first-child) {
       margin-left: 8px;
+  }
+
+  .progects-subtitle {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  .progects-category {
+    color: var(--main-text-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.9;
+    /* identical to box height, or 187% */
+    
+    letter-spacing: 0.03em;
+  }
+
+  .progects-category:hover,
+  .progects-category:focus {
+      color: var(--accent-color);
   }
